@@ -11,8 +11,8 @@ In future, I may also add other applications that aren’t available in the defa
 To install **Helium Browser** using this bucket:
 
 ```powershell
-scoop bucket add scoop-bucket https://github.com/fahim-ahmed05/scoop-bucket.git
-scoop install scoop-bucket/helium
+scoop bucket add fahim-ahmed05_scoop-bucket https://github.com/fahim-ahmed05/scoop-bucket
+scoop install fahim-ahmed05_scoop-bucket/helium
 ```
 
 ## Contribution
