@@ -1,20 +1,19 @@
 # Scoop Bucket
 
-This is my personal [Scoop](https://scoop.sh/) bucket. Currently, it contains the [Helium Browser](https://helium.computer/).  
+This is my personal [Scoop](https://scoop.sh/) bucket. 
 
-I've submitted a [pull request](https://github.com/ScoopInstaller/Extras/pull/16177) to include Helium Browser in the official Scoop [Extras](https://github.com/ScoopInstaller/Extras) bucket. Until it becomes available there, I'll maintain and update Helium Browser's manifest here.  
+## How do I install these manifests?
 
-In future, I may also add other applications that aren’t available in the default Scoop buckets.  
+After manifests have been committed and pushed, run the following:
 
-## Installation
-
-To install **Helium Browser** using this bucket:
-
-```powershell
-scoop bucket add fahim-ahmed05_scoop-bucket https://github.com/fahim-ahmed05/scoop-bucket
-scoop install fahim-ahmed05_scoop-bucket/helium
+```pwsh
+scoop bucket add <bucketname> https://github.com/fahim-ahmed05/scoop-bucket
+scoop install <bucketname>/<manifestname>
 ```
 
-## Contribution
+## How do I contribute new manifests?
 
-If you want to contribute a **new manifest**, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md) and the [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) wiki page.
+To make a new manifest contribution, please read the [Contributing
+Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
+and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
+wiki page.
