@@ -1,20 +1,16 @@
-name: Delete Workflow Runs
-
 on:
+  workflow_dispatch:
   schedule:
     # run every 12 hours
-    - cron: '20 */12 * * *'
-  workflow_dispatch:
-
+    - cron: "20 */12 * * *"
+name: Delete Workflow Runs
 jobs:
   run:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Delete older releases and workflows
+      - name: Delete older workflows
         uses: ophub/delete-releases-workflows@main
         with:
           delete_releases: false
