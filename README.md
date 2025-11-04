@@ -8,6 +8,7 @@ This bucket includes the following manifests:
 
 - **`helium`** - A Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat, and no noise.  
 - **`inter-font`** - Inter is a typeface carefully crafted and designed for computer screens. It features a tall x-height to improve readability of mixed-case and lowercase text.
+- **`vacuumtube`** - VacuumTube is an unofficial wrapper of YouTube Leanback (the console and Smart TV version of YouTube) for the desktop, with a built-in adblocker and minor enhancements.
 
 ## Installation
 
