@@ -13,12 +13,11 @@
             "hash": "b77bf97a8784f35e2fe6932224f5ce8458e467921022878f018fad85ab427619"
         }
     },
-    "persist": "data",
     "post_install": [
         "$appdata = \"$env:APPDATA\\VacuumTube\"",
         
         "if (Test-Path $appdata) {",
-        "    Write-Host 'Migrating existing data from AppData to persist directory...'",
+        "    Write-Host '`nMigrating existing data from AppData to persist directory...'",
         "    Move-Item -Path (Join-Path $appdata '*') -Destination $persist_dir -Force -ErrorAction SilentlyContinue",
         "    Remove-Item $appdata -Recurse -Force",
         "}",
