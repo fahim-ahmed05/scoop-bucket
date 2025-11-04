@@ -13,7 +13,6 @@
             "hash": "b77bf97a8784f35e2fe6932224f5ce8458e467921022878f018fad85ab427619"
         }
     },
-    "extract_dir": ".",
     "persist": "data",
     "post_install": [
         "$appdata = \"$env:APPDATA\\VacuumTube\"",
