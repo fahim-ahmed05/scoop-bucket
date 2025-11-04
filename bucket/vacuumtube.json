@@ -2,7 +2,7 @@
     "version": "1.3.21",
     "description": "VacuumTube is an unofficial wrapper of YouTube Leanback (the console and Smart TV version of YouTube) for the desktop, with a built-in adblocker and minor enhancements.",
     "homepage": "https://github.com/shy1132/VacuumTube",
-    "license": "MIT license",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/shy1132/VacuumTube/releases/latest/download/VacuumTube-x64-Portable.zip",
@@ -16,16 +16,21 @@
     "persist": ".",
     "post_install": [
         "$appdata = \"$env:APPDATA\\VacuumTube\"",
-        "$persistDir = \"$dir\"",
+        
         "if (Test-Path $appdata) {",
         "    Write-Host 'Migrating existing data from AppData to persist directory...'",
-        "    Move-Item -Path (Join-Path $appdata '*') -Destination $persistDir -Force -ErrorAction SilentlyContinue",
+        "    Move-Item -Path (Join-Path $appdata '*') -Destination $persist_dir -Force -ErrorAction SilentlyContinue",
         "    Remove-Item $appdata -Recurse -Force",
         "}",
-        "if (!(Test-Path $persistDir)) { New-Item -ItemType Directory -Path $persistDir | Out-Null }",
-        "New-Item -ItemType Junction -Path $appdata -Target $persistDir | Out-Null"
+        
+        "if (!(Test-Path $persist_dir)) { New-Item -ItemType Directory -Path $persist_dir | Out-Null }",
+        
+        "if (!(Test-Path $appdata)) {",
+        "    New-Item -ItemType Junction -Path $appdata -Target $persist_dir | Out-Null",
+        "}"
     ],
     "post_uninstall": [
+        "# Remove junction on uninstall",
         "if ((Get-Item \"$env:APPDATA\\VacuumTube\" -ErrorAction SilentlyContinue)?.LinkType -eq 'Junction') {",
         "    Remove-Item \"$env:APPDATA\\VacuumTube\" -Force",
         "}"
