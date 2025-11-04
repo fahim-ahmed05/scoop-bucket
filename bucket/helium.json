@@ -45,8 +45,8 @@
         "}"
     ],
     "post_uninstall": [
-        "if ((Get-Item \"$env:APPDATA\\imput\\Helium\\User Data\" -ErrorAction SilentlyContinue)?.LinkType -eq 'Junction') {",
-        "    Remove-Item \"$env:APPDATA\\imput\\Helium\\User Data\" -Force",
+        "if ((Get-Item \"$env:LOCALAPPDATA\\imput\\Helium\\User Data\" -ErrorAction SilentlyContinue)?.LinkType -eq 'Junction') {",
+        "    Remove-Item \"$env:LOCALAPPDATA\\imput\\Helium\\User Data\" -Force",
         "}"
     ],
     "checkver": {
