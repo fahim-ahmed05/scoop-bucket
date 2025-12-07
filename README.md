@@ -6,11 +6,11 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-| Manifest Name | Manifest File                                                                             | Project Website                                         |
-|---------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| `helium`      | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)      | [Link](https://github.com/imputnet/helium)              |
-| `inter-font`  | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)  | [Link](https://github.com/rsms/inter)                   |
-| `vacuumtube`  | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)  | [Link](https://github.com/shy1132/VacuumTube)           |
+| Manifest Name | Manifest File                                                                                        | GitHub Repository                                           |
+|---------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| `helium`      | [helium.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)          | [imputnet/helium](https://github.com/imputnet/helium)       |
+| `inter-font`  | [inter-font.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)  | [rsms/inter](https://github.com/rsms/inter)                 |
+| `vacuumtube`  | [vacuumtube.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)  | [shy1132/VacuumTube](https://github.com/shy1132/VacuumTube) |
 
 ## Installation
 
