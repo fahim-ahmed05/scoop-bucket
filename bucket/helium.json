@@ -15,13 +15,6 @@
             "extract_dir": "helium_0.6.9.1_arm64-windows"
         }
     },
-    "bin": [
-        [
-            "chrome.exe",
-            "helium",
-            "--user-data-dir=\"$persist_dir\\User Data\""
-        ]
-    ],
     "shortcuts": [
         [
             "chrome.exe",
