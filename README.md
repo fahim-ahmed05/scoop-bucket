@@ -6,11 +6,11 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-| Name       | Description                                                                                                                                                                      |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [helium](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)     | A Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat, and no noise.                                                  |
-| [inter-font](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json) | Inter is a typeface carefully crafted and designed for computer screens. It features a tall x-height to improve readability of mixed-case and lowercase text.                    |
-| [vacuumtube](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json) | VacuumTube is an unofficial wrapper of YouTube Leanback (the console and Smart TV version of YouTube) for the desktop, with a built-in adblocker and minor enhancements.         |
+| Name          | Manifest                                                                                  | Website                                                 |
+|---------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `helium`      | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)      | [Link](https://github.com/imputnet/helium)              |
+| `inter-font`  | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)  | [Link](https://github.com/rsms/inter)                   |
+| `vacuumtube`  | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)  | [Link](https://github.com/shy1132/VacuumTube)           |
 
 ## Installation
 
