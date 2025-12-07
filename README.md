@@ -6,7 +6,7 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-| Name          | Manifest                                                                                  | Website                                                 |
+| Manifest Name | Manifest File                                                                             | Project Website                                         |
 |---------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | `helium`      | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)      | [Link](https://github.com/imputnet/helium)              |
 | `inter-font`  | [Link](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)  | [Link](https://github.com/rsms/inter)                   |
