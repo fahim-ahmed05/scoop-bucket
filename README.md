@@ -8,7 +8,7 @@ This bucket includes the following manifests:
 
 | Manifest Name    | Manifest File                                                                                         | GitHub Repository                                                                   |
 |------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| `helium-browser` | [helium.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium.json)           | [imputnet/helium](https://github.com/imputnet/helium)                               |
+| `helium-browser` | [helium.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium-browser.json)   | [imputnet/helium](https://github.com/imputnet/helium)                               |
 | `inter-font`     | [inter-font.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)   | [rsms/inter](https://github.com/rsms/inter)                                         |
 | `vacuumtube`     | [vacuumtube.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)   | [shy1132/VacuumTube](https://github.com/shy1132/VacuumTube)                         |
 | `clickpaste`     | [clickpaste.json](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/clickpaste.json)   | [Collective-Software/ClickPaste](https://github.com/Collective-Software/ClickPaste) |
