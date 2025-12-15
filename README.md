@@ -6,13 +6,13 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-| Manifest Name    | Manifest File                                                                             | GitHub Repository                                      |
-|------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| `helium-browser` | [↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium-browser.json) | [↗](https://github.com/imputnet/helium)                |
-| `inter-font`     | [↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)     | [↗](https://github.com/rsms/inter)                     |
-| `vacuumtube`     | [↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)     | [↗](https://github.com/shy1132/VacuumTube)             |
-| `clickpaste`     | [↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/clickpaste.json)     | [↗](https://github.com/Collective-Software/ClickPaste) |
-| `zen-browser`    | [↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)    | [↗](https://github.com/zen-browser/desktop)            |
+| Name             | File                                                                                        | Repository                                               |
+|------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| `helium-browser` | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium-browser.json) | [↗↗↗](https://github.com/imputnet/helium)                |
+| `inter-font`     | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)     | [↗↗↗](https://github.com/rsms/inter)                     |
+| `vacuumtube`     | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)     | [↗↗↗](https://github.com/shy1132/VacuumTube)             |
+| `clickpaste`     | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/clickpaste.json)     | [↗↗↗](https://github.com/Collective-Software/ClickPaste) |
+| `zen-browser`    | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)    | [↗↗↗](https://github.com/zen-browser/desktop)            |
 
 ## Installation
 
