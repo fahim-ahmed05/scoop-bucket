@@ -13,7 +13,6 @@ This bucket includes the following manifests:
 | `inter-font`        | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)        | [↗↗↗](https://github.com/rsms/inter)                     |
 | `vacuumtube`        | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)        | [↗↗↗](https://github.com/shy1132/VacuumTube)             |
 | `zen-browser`       | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)       | [↗↗↗](https://github.com/zen-browser/desktop)            |
-| `stremio-community` | [↗↗↗](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/stremio-community.json) | [↗↗↗](https://github.com/Zaarrg/stremio-community-v5)    |
 
 ## Installation
 
