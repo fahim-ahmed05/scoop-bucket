@@ -12,8 +12,10 @@
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Recurse -Force",
     "shortcuts": [
-        "PlayTorrio.exe",
-        "PlayTorrio"
+        [
+            "PlayTorrio.exe",
+            "PlayTorrio"
+        ]
     ],
     "checkver": {
         "github": "https://github.com/ayman708-ux/PlayTorrio"
