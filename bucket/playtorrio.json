@@ -3,12 +3,26 @@
     "description": "PlayTorrio is an all-in-one media center application that brings together streaming, torrenting, and media management in a beautiful, easy-to-use interface.",
     "homepage": "https://github.com/ayman708-UX/PlayTorrio",
     "license": "GPL-2.0",
-    "url": "https://github.com/ayman708-UX/PlayTorrio/releases/download/v2.4.1/PlayTorrio-installer.exe#/dl.7z",
-    "hash": "00c3447b1a59f6728bcf343b43b10eef66b96074eac8c77b937126aaa60a3bfa",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ayman708-ux/PlayTorrio/releases/download/v2.4.1/PlayTorrio-installer.exe#/dl.7z",
+            "hash": "00c3447b1a59f6728bcf343b43b10eef66b96074eac8c77b937126aaa60a3bfa"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Recurse -Force",
     "shortcuts": [
         "PlayTorrio.exe",
         "PlayTorrio"
     ],
-    "checkver": "github",
-    "autoupdate": "https://github.com/ayman708-UX/PlayTorrio/releases/download/v$version/PlayTorrio-installer.exe#/dl.7z"
+    "checkver": {
+        "github": "https://github.com/ayman708-ux/PlayTorrio"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ayman708-ux/PlayTorrio/releases/download/v$version/PlayTorrio-installer.exe#/dl.7z"
+            }
+        }
+    }
 }
