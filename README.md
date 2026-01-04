@@ -12,6 +12,7 @@ This bucket includes the following manifests:
 - [vacuumtube](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)
 - [zen-browser](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)
 - [playtorrio](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/playtorrio.json)
+- [umpv](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/umpv.json)
 
 ## Installation
 
