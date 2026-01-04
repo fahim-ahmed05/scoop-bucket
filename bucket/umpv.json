@@ -29,5 +29,11 @@
                 "url": "https://github.com/zhongfly/umpv-go/releases/download/v$version/umpv-windows-arm64.zip"
             }
         }
-    }
+    },
+    "pre_install": [
+        "$conf = \"$dir\\umpv.conf\"",
+        "if (!(Test-Path $conf)) {",
+        "    Set-Content -Path $conf -Value 'loadfile-flag=replace'",
+        "}"
+    ]
 }
