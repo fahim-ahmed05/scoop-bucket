@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v4.2.0/Stremio.Kai_v4.2.0.7z",
-            "hash": "bd2c82981f84a2f7b2dc959e23f26894e4d1d444442e49e663ba6aee4e8edf53"
+            "hash": "bd2c82981f84a2f7b2dc959e23f26894e4d1d444442e49e663ba6aee4e8edf53",
+            "extract_dir": "Stremio Kai"
         }
     },
     "shortcuts": [
@@ -21,7 +22,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v$version/Stremio.Kai_v$version.7z"
+                "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v$version/Stremio.Kai_v$version.7z",
+                "extract_dir": "Stremio Kai"
             }
         }
     }
