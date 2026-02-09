@@ -6,13 +6,13 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-- [clickpaste](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/clickpaste.json)
-- [helium-browser](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium-browser.json)
-- [inter-font](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/inter-font.json)
-- [vacuumtube](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/vacuumtube.json)
-- [zen-browser](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)
-- [playtorrio](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/playtorrio.json)
-- [umpv](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/umpv.json)
+- [clickpaste](./bucket/clickpaste.json)
+- [helium-browser](./bucket/helium-browser.json)
+- [inter-font](./bucket/inter-font.json)
+- [vacuumtube](./bucket/vacuumtube.json)
+- [zen-browser](./bucket/zen-browser.json)
+- [playtorrio](./bucket/playtorrio.json)
+- [umpv](./bucket/umpv.json)
 - [stremio-kai](./bucket/stremio-kai.json)
 
 ## Installation
