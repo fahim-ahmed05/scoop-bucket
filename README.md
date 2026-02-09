@@ -13,6 +13,7 @@ This bucket includes the following manifests:
 - [zen-browser](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json)
 - [playtorrio](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/playtorrio.json)
 - [umpv](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/umpv.json)
+- [stremio-kai](./bucket/stremio-kai.json)
 
 ## Installation
 
@@ -27,10 +28,10 @@ Replace `<bucketname>` with your preferred local name for the bucket, and `<mani
 
 ## Contributing
 
-Want to add or improve a manifest?  
+Want to add or improve a manifest?
 Please read the following guides before submitting changes:
 
-- [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)  
+- [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 - [App Manifests Wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 
 Pull requests are always welcome!
