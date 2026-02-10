@@ -6,14 +6,16 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-- [clickpaste](./bucket/clickpaste.json)
-- [helium-browser](./bucket/helium-browser.json)
-- [inter-font](./bucket/inter-font.json)
-- [vacuumtube](./bucket/vacuumtube.json)
-- [zen-browser](./bucket/zen-browser.json)
-- [playtorrio](./bucket/playtorrio.json)
-- [umpv](./bucket/umpv.json)
-- [stremio-kai](./bucket/stremio-kai.json)
+| App | Manifest | Website |
+|:----|:--------:|:-------:|
+| `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) |
+| `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) |
+| `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) |
+| `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) |
+| `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://www.zen-browser.app/) |
+| `playtorrio` | [📄](./bucket/playtorrio.json) | [🌐](https://github.com/ayman708-UX/PlayTorrio) |
+| `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) |
+| `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) |
 
 ## Installation
 
