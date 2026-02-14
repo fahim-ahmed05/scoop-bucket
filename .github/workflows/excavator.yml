@@ -25,7 +25,11 @@ jobs:
       actions: write
     steps:
       - name: Remove older workflow runs
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh run list -L400 --json databaseId -q '.[].databaseId' | tail -n+11 | xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
+        uses: ophub/delete-releases-workflows@main
+        with:
+          delete_releases: true
+          delete_tags: true
+          releases_keep_latest: 100
+          delete_workflows: true
+          workflows_keep_day: 7
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
