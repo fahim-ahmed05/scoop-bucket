@@ -1,0 +1,19 @@
+{
+    "version": "5.5.5",
+    "description": "Browser proxy for Windows with autodetection, rules, scripting. 100% local, no tracking, no registration. ",
+    "homepage": "https://github.com/aloneguid/bt",
+    "license": "Apache-2.0",
+    "url": "https://github.com/aloneguid/bt/releases/download/5.5.5/bt-5.5.5.zip",
+    "hash": "48583cfd4be0c8e205954a00d3f0a36dd089199ef0b7be492088b8b93c566446",
+    "bin": "bt.exe",
+    "shortcuts": [
+        [
+            "bt.exe",
+            "Browser Tamer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/aloneguid/bt/releases/download/$version/bt-$version.zip"
+    }
+}
