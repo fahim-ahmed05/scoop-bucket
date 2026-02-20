@@ -16,6 +16,7 @@ This bucket includes the following manifests:
 | `playtorrio` | [📄](./bucket/playtorrio.json) | [🌐](https://github.com/ayman708-UX/PlayTorrio) |
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) |
 | `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) |
+| `browser-tamer` | [📄](./bucket/browser-tamer.json) | [🌐](https://github.com/aloneguid/bt) |
 
 ## Installation
 
