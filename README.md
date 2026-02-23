@@ -6,17 +6,17 @@ This is my personal [Scoop](https://scoop.sh/) bucket.
 
 This bucket includes the following manifests:
 
-| App | Manifest | Website |
-|:----|:--------:|:-------:|
-| `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) |
-| `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) |
-| `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) |
-| `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) |
-| `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://www.zen-browser.app/) |
-| `playtorrio` | [📄](./bucket/playtorrio.json) | [🌐](https://github.com/ayman708-UX/PlayTorrio) |
-| `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) |
-| `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) |
-| `browser-tamer` | [📄](./bucket/browser-tamer.json) | [🌐](https://github.com/aloneguid/bt) |
+| App | Manifest | Website | Changelog |
+|:----|:--------:|:-------:|:---------:|
+| `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
+| `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
+| `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) | [🔗](https://github.com/rsms/inter/releases) |
+| `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
+| `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://www.zen-browser.app/) | [🔗](https://zen-browser.app/release-notes/) |
+| `playtorrio` | [📄](./bucket/playtorrio.json) | [🌐](https://github.com/ayman708-UX/PlayTorrio) | [🔗](https://github.com/ayman708-UX/PlayTorrio/releases) |
+| `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
+| `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
+| `browser-tamer` | [📄](./bucket/browser-tamer.json) | [🌐](https://github.com/aloneguid/bt) | [🔗](https://github.com/aloneguid/bt/releases) |
 
 ## Installation
 
