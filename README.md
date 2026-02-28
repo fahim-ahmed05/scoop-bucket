@@ -13,7 +13,6 @@ This bucket includes the following manifests:
 | `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) | [🔗](https://github.com/rsms/inter/releases) |
 | `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
 | `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://www.zen-browser.app/) | [🔗](https://zen-browser.app/release-notes/) |
-| `playtorrio` | [📄](./bucket/playtorrio.json) | [🌐](https://github.com/ayman708-UX/PlayTorrio) | [🔗](https://github.com/ayman708-UX/PlayTorrio/releases) |
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
 | `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
 | `browser-tamer` | [📄](./bucket/browser-tamer.json) | [🌐](https://github.com/aloneguid/bt) | [🔗](https://github.com/aloneguid/bt/releases) |
