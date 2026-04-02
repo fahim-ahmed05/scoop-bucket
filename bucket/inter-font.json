@@ -1,49 +1,30 @@
 {
     "version": "4.1",
-    "description": "Inter is a typeface carefully crafted & designed for computer screens. Inter features a tall x-height to aid in readability of mixed-case and lower-case text.",
-    "homepage": "https://rsms.me/inter",
+    "description": "The Inter typeface family, carefully crafted & designed for computer screens.",
+    "homepage": "https://rsms.me/inter/",
     "license": "OFL-1.1",
     "url": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
-    "hash": "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e",
-    "installer": {
-        "script": [
-            "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
-            "$windows1809BuildNumber = 17763",
-            "$isPerUserFontInstallationSupported = $currentBuildNumber -ge $windows1809BuildNumber",
-            "$isFontInstallationForAllUsers = $global -or !$isPerUserFontInstallationSupported",
-            "if ($isFontInstallationForAllUsers -and !(is_admin)) {",
-            "    error \"Administrator rights are required to install $app.\"",
-            "    exit 1",
-            "}",
-            "$fontInstallDir = if ($isFontInstallationForAllUsers) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
-            "$registryRoot = if ($isFontInstallationForAllUsers) { \"HKLM\" } else { \"HKCU\" }",
-            "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
-            "Get-ChildItem $dir -Filter '*.ttf' -Recurse | ForEach-Object {",
-            "    $value = if ($isFontInstallationForAllUsers) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
-            "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-            "    Copy-Item $_.FullName -Destination $fontInstallDir",
-            "}"
-        ]
-    },
+    "hash": "9883FDD4A49D4FB66BD8177BA6625EF9A64AA45899767DDE3D36AA425756B11E",
+    "post_install": [
+        "$fontsDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+        "if (!(Test-Path $fontsDir)) { New-Item $fontsDir -Type Directory -Force | Out-Null }",
+        "Get-ChildItem $dir -File | Where-Object { $_.Extension -match '\\.(ttf|ttc)' } | ForEach-Object {",
+        "    $fontName = $_.Name",
+        "    Copy-Item $_.FullName \"$fontsDir\\$fontName\" -Force",
+        "    $regName = $_.BaseName + ' (TrueType)'",
+        "    New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $regName -Value $fontName -PropertyType String -Force | Out-Null",
+        "}",
+        "Write-Host 'Inter fonts installed! You may need to restart your terminal or apps to see them.' -ForegroundColor Green"
+    ],
     "uninstaller": {
         "script": [
-            "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
-            "$windows1809BuildNumber = 17763",
-            "$isPerUserFontInstallationSupported = $currentBuildNumber -ge $windows1809BuildNumber",
-            "$isFontInstallationForAllUsers = $global -or !$isPerUserFontInstallationSupported",
-            "if ($isFontInstallationForAllUsers -and !(is_admin)) {",
-            "    error \"Administrator rights are required to uninstall $app.\"",
-            "    exit 1",
-            "}",
-            "$fontInstallDir = if ($isFontInstallationForAllUsers) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
-            "$registryRoot = if ($isFontInstallationForAllUsers) { \"HKLM\" } else { \"HKCU\" }",
-            "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*.ttf' -Recurse | ForEach-Object {",
-            "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
-            "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
-            "}",
-            "Write-Host \"The 'Inter' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "$fontsDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "Get-ChildItem $dir -File | Where-Object { $_.Extension -match '\\.(ttf|ttc)' } | ForEach-Object {",
+            "    $fontName = $_.Name",
+            "    $regName = $_.BaseName + ' (TrueType)'",
+            "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $regName -ErrorAction SilentlyContinue",
+            "    Remove-Item \"$fontsDir\\$fontName\" -ErrorAction SilentlyContinue",
+            "}"
         ]
     },
     "checkver": {
