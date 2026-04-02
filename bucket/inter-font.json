@@ -8,18 +8,20 @@
     "post_install": [
         "$fontsDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
         "if (!(Test-Path $fontsDir)) { New-Item $fontsDir -Type Directory -Force | Out-Null }",
-        "Get-ChildItem $dir -File | Where-Object { $_.Extension -match '\\.(ttf|ttc)' } | ForEach-Object {",
+        "$ttfDir = Join-Path $dir 'extras\\ttf'",
+        "Get-ChildItem $ttfDir -File -Filter '*.ttf' | ForEach-Object {",
         "    $fontName = $_.Name",
         "    Copy-Item $_.FullName \"$fontsDir\\$fontName\" -Force",
         "    $regName = $_.BaseName + ' (TrueType)'",
         "    New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $regName -Value $fontName -PropertyType String -Force | Out-Null",
         "}",
-        "Write-Host 'Inter fonts installed! You may need to restart your terminal or apps to see them.' -ForegroundColor Green"
+        "Write-Host 'Inter static fonts installed! You may need to restart your terminal or apps to see them.' -ForegroundColor Green"
     ],
     "uninstaller": {
         "script": [
             "$fontsDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
-            "Get-ChildItem $dir -File | Where-Object { $_.Extension -match '\\.(ttf|ttc)' } | ForEach-Object {",
+            "$ttfDir = Join-Path $dir 'extras\\ttf'",
+            "Get-ChildItem $ttfDir -File -Filter '*.ttf' | ForEach-Object {",
             "    $fontName = $_.Name",
             "    $regName = $_.BaseName + ' (TrueType)'",
             "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $regName -ErrorAction SilentlyContinue",
