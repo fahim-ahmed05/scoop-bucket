@@ -5,7 +5,7 @@
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v4.5.0/Stremio.Kai_v4.5.0.7z",
+            "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v4.5.0/StremioKai_v4.5.0.7z",
             "hash": "7eeefcbe9d3e93943cec9085ccb4d0c6774a2a12640bfcd454d7c230c6a47abb",
             "extract_dir": "Stremio Kai"
         }
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v$version/Stremio.Kai_v$version.7z",
+                "url": "https://github.com/allecsc/Stremio-Kai/releases/download/v$version/StremioKai_v$version.7z",
                 "extract_dir": "Stremio Kai"
             }
         }
