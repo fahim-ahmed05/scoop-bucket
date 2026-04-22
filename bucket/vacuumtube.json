@@ -21,20 +21,25 @@
             ]
         }
     },
+    "pre_install": "New-Item \"$dir\\portable.txt\" -ItemType File | Out-Null",
+    "persist": "data",
     "shortcuts": [
         [
             "VacuumTube.exe",
             "VacuumTube"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/ishy1132/VacuumTube/releases",
+        "jsonpath": "$.[0].tag_name"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-Setup.exe#/dl.7z"
+                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-x64-Portable.zip"
             },
             "arm64": {
-                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-Setup.exe#/dl.7z"
+                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-arm64-Portable.zip"
             }
         }
     }
