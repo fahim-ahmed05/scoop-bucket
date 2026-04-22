@@ -8,20 +8,12 @@ jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@main
-      - name: Check for updates
-        uses: ScoopInstaller/GithubActions@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SKIP_UPDATED: 1
-
-  cleanup:
-    name: Cleanup
-    runs-on: ubuntu-latest
     permissions:
       actions: write
+      
     steps:
+      - uses: actions/checkout@main
+      
       - name: Remove older workflow runs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,3 +21,10 @@ jobs:
           gh run list -L400 --repo "$GITHUB_REPOSITORY" --json databaseId -q '.[].databaseId' |
             tail -n+11 |
             xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
+      
+      - name: Check for updates
+        uses: ScoopInstaller/GithubActions@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: 1
+
