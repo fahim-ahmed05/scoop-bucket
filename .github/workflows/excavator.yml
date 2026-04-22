@@ -3,6 +3,7 @@ on:
   schedule:
     # run every 4 hours
     - cron: "20 */4 * * *"
+    
 name: Excavator
 jobs:
   excavate:
@@ -18,9 +19,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh run list -L400 --repo "$GITHUB_REPOSITORY" --json databaseId -q '.[].databaseId' |
-            tail -n+11 |
-            xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
+          $runs = gh run list -L 400 --repo $env:GITHUB_REPOSITORY --json databaseId | ConvertFrom-Json
+          
+          if ($runs.Count -gt 10) {
+            $runs | Select-Object -Skip 10 | ForEach-Object {
+              gh api "repos/$env:GITHUB_REPOSITORY/actions/runs/$($_.databaseId)" -X DELETE
+            }
+          }
       
       - name: Check for updates
         uses: ScoopInstaller/GithubActions@main
