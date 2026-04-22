@@ -5,12 +5,20 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shy1132/VacuumTube/releases/download/v1.6.2/VacuumTube-x64-Portable.zip",
-            "hash": "48a79743dcad4280ea679c429dadd7229bda0268b11938c06b392f7ad19bac33"
+            "url": "https://github.com/shy1132/VacuumTube/releases/download/v1.6.2/VacuumTube-Setup.exe#/dl.7z",
+            "hash": "48a79743dcad4280ea679c429dadd7229bda0268b11938c06b392f7ad19bac33",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse -ErrorAction SilentlyContinue"
+            ]
         },
         "arm64": {
-            "url": "https://github.com/shy1132/VacuumTube/releases/download/v1.6.2/VacuumTube-arm64-Portable.zip",
-            "hash": "b7fb7a31674b0dba85d21aadc253f37cde4db22be0f3f2ed548cfcca8de8c004"
+            "url": "https://github.com/shy1132/VacuumTube/releases/download/v1.6.2/VacuumTube-Setup.exe#/dl.7z",
+            "hash": "b7fb7a31674b0dba85d21aadc253f37cde4db22be0f3f2ed548cfcca8de8c004",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse -ErrorAction SilentlyContinue"
+            ]
         }
     },
     "shortcuts": [
@@ -23,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-x64-Portable.zip"
+                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-Setup.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-arm64-Portable.zip"
+                "url": "https://github.com/shy1132/VacuumTube/releases/download/v$version/VacuumTube-Setup.exe#/dl.7z"
             }
         }
     }
