@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Anisurge/App/releases/download/v0.9.19/Anisurge-0.9.19.36-windows-portable.zip",
-            "hash": "c5a0e8699939000450676a402b15163b8ea23543d05a3a3717bca12190813847"
+            "hash": "c5a0e8699939000450676a402b15163b8ea23543d05a3a3717bca12190813847",
+            "extract_dir": "Anisurge"
         }
     },
     "shortcuts": [
