@@ -8,7 +8,8 @@ This bucket includes the following manifests:
 
 | App | Manifest | Website | Changelog |
 |:----|:--------:|:-------:|:---------:|
-| `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
+| `anisurge` | [📄](./bucket/anisurge.json) | [🌐](https://github.com/Anisurge/App) | [🔗](https://github.com/Anisurge/App/releases) |
+| `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/Collective-Software/ClickPaste/releases) |
 | `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
 | `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) | [🔗](https://github.com/rsms/inter/releases) |
 | `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
