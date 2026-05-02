@@ -2,6 +2,7 @@
     "version": "0.9.19.36",
     "description": "High-performance anime client. Experience seamless anime streaming across Android, Linux, Windows, and iOS.",
     "homepage": "https://github.com/Anisurge/App",
+    "license": "Unknown",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Anisurge/App/releases/download/v0.9.19/Anisurge-0.9.19.36-windows-portable.zip",
