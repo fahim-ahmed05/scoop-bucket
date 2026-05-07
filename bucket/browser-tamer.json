@@ -8,11 +8,13 @@
     "bin": "bt.exe",
     "pre_install": [
         "if (!(Test-Path \"$dir\\.portable\")) { New-Item \"$dir\\.portable\" -ItemType File | Out-Null }",
-        "if (!(Test-Path \"$dir\\config.ini\")) { New-Item \"$dir\\config.ini\" -ItemType File | Out-Null }"
+        "if (!(Test-Path \"$dir\\config.ini\")) { New-Item \"$dir\\config.ini\" -ItemType File | Out-Null }",
+        "if (!(Test-Path \"$dir\\hit_log.csv\")) { New-Item \"$dir\\hit_log.csv\" -ItemType File | Out-Null }"
     ],
     "persist": [
         ".portable",
-        "config.ini"
+        "config.ini",
+        "hit_log.csv"
     ],
     "shortcuts": [
         [
