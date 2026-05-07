@@ -6,6 +6,8 @@
     "url": "https://github.com/aloneguid/bt/releases/download/5.6.8/bt.zip",
     "hash": "21f8cb7be45fc7317e70d781e398822aa86a08c5e119e92e8dca115cb0d55062",
     "bin": "bt.exe",
+    "pre_install": "New-Item .portable -Type File",
+    "persist": "config.ini",
     "shortcuts": [
         [
             "bt.exe",
