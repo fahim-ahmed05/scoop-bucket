@@ -16,7 +16,6 @@ This bucket includes the following manifests:
 | `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://www.zen-browser.app/) | [🔗](https://zen-browser.app/release-notes/) |
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
 | `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
-| `browser-tamer` | [📄](./bucket/browser-tamer.json) | [🌐](https://github.com/aloneguid/bt) | [🔗](https://github.com/aloneguid/bt/releases) |
 | `winhance` | [📄](./bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
 
 ## Installation
