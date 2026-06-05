@@ -16,6 +16,7 @@ This bucket includes the following manifests:
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
 | `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
 | `winhance` | [📄](./bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
+| `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://github.com/zen-browser/desktop) | [🔗](https://github.com/zen-browser/desktop/releases) |
 
 ## Installation
 
