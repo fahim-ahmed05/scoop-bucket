@@ -21,7 +21,6 @@
         "}"
     ],
     "extract_dir": "core",
-    "bin": "zen.exe",
     "shortcuts": [
         [
             "zen.exe",
