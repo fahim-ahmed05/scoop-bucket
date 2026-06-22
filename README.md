@@ -9,6 +9,7 @@ This bucket includes the following manifests:
 | App | Manifest | Website | Changelog |
 |:----|:--------:|:-------:|:---------:|
 | `anisurge` | [📄](./bucket/anisurge.json) | [🌐](https://github.com/Anisurge/App) | [🔗](https://github.com/Anisurge/App/releases) |
+| `antra` | [📄](./bucket/antra.json) | [🌐](https://github.com/anandprtp/Antra) | [🔗](https://github.com/anandprtp/Antra/releases) |
 | `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/Collective-Software/ClickPaste/releases) |
 | `harbor` | [📄](./bucket/harbor.json) | [🌐](https://github.com/harborstremio/harbor) | [🔗](https://github.com/harborstremio/harbor/releases) |
 | `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
