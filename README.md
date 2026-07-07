@@ -15,8 +15,8 @@ This bucket includes the following manifests:
 | `harbor` | [📄](./bucket/harbor.json) | [🌐](https://github.com/harborstremio/harbor) | [🔗](https://github.com/harborstremio/harbor/releases) |
 | `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
 | `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) | [🔗](https://github.com/rsms/inter/releases) |
-| `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
+| `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
 | `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
 | `winhance` | [📄](./bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
 | `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://github.com/zen-browser/desktop) | [🔗](https://github.com/zen-browser/desktop/releases) |
