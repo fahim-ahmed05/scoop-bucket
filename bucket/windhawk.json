@@ -31,9 +31,9 @@
     "checkver": {
         "url": "https://api.github.com/repos/ramensoftware/windhawk/releases",
         "jsonpath": "$[0].tag_name",
-        "regex": "v?([\\w\\.\\- ]+)"
+        "regex": "(?<tag>v?(?<version>[\\w\\.\\- ]+))"
     },
     "autoupdate": {
-        "url": "https://github.com/ramensoftware/windhawk/releases/download/v$version/windhawk_setup_offline.exe"
+        "url": "https://github.com/ramensoftware/windhawk/releases/download/$matchTag/windhawk_setup_offline.exe"
     }
 }
