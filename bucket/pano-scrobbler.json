@@ -1,0 +1,31 @@
+{
+    "version": "4.42",
+    "description": "Feature rich scrobbler for Windows, Linux & Android",
+    "homepage": "https://github.com/kawaiiDango/pano-scrobbler",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/442/pano-scrobbler-windows-x64.exe#/setup.exe",
+            "hash": "D381BE7510370BDFAD9B15ADCA2823C0016F15290CD0B192C3AE247A463AD422"
+        }
+    },
+    "innosetup": true,
+    "bin": "pano-scrobbler.exe",
+    "shortcuts": [
+        [
+            "pano-scrobbler.exe",
+            "Pano Scrobbler"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kawaiiDango/pano-scrobbler",
+        "regex": "tag/(?<tag>[\\d]+).*?name\": \"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/$matchTag/pano-scrobbler-windows-x64.exe#/setup.exe"
+            }
+        }
+    }
+}
