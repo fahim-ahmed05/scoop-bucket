@@ -8,16 +8,17 @@ This bucket includes the following manifests:
 
 | App | Manifest | Website | Changelog |
 |:----|:--------:|:-------:|:---------:|
-| `anisurge` | [📄](./bucket/anisurge.json) | [🌐](https://github.com/Anisurge/App) | [🔗](https://github.com/Anisurge/App/releases) |
-| `antra` | [📄](./bucket/antra.json) | [🌐](https://github.com/anandprtp/Antra) | [🔗](https://github.com/anandprtp/Antra/releases) |
 | `clickpaste` | [📄](./bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/Collective-Software/ClickPaste/releases) |
-| `cremio` | [📄](./bucket/cremio.json) | [🌐](https://github.com/itssoap/cremio) | [🔗](https://github.com/itssoap/cremio/releases) |
 | `harbor` | [📄](./bucket/harbor.json) | [🌐](https://github.com/harborstremio/harbor) | [🔗](https://github.com/harborstremio/harbor/releases) |
 | `helium-browser` | [📄](./bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
 | `inter-font` | [📄](./bucket/inter-font.json) | [🌐](https://rsms.me/inter) | [🔗](https://github.com/rsms/inter/releases) |
+| `morphe-desktop` | [📄](./bucket/morphe-desktop.json) | [🌐](https://github.com/morphe/morphe-desktop) | [🔗](https://github.com/morphe/morphe-desktop/releases) |
+| `pano-scrobbler` | [📄](./bucket/pano-scrobbler.json) | [🌐](https://github.com/pano-scrobbler/pano-scrobbler) | [🔗](https://github.com/pano-scrobbler/pano-scrobbler/releases) |
+| `sonora` | [📄](./bucket/sonora.json) | [🌐](https://github.com/sonora/sonora) | [🔗](https://github.com/sonora/sonora/releases) |
+| `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
 | `umpv` | [📄](./bucket/umpv.json) | [🌐](https://github.com/zhongfly/umpv-go) | [🔗](https://github.com/zhongfly/umpv-go/releases) |
 | `vacuumtube` | [📄](./bucket/vacuumtube.json) | [🌐](https://github.com/shy1132/VacuumTube) | [🔗](https://github.com/shy1132/VacuumTube/releases) |
-| `stremio-kai` | [📄](./bucket/stremio-kai.json) | [🌐](https://github.com/allecsc/Stremio-Kai) | [🔗](https://github.com/allecsc/Stremio-Kai/releases) |
+| `windhawk` | [📄](./bucket/windhawk.json) | [🌐](https://windhawk.net/) | [🔗](https://github.com/windhawk/windhawk/releases) |
 | `winhance` | [📄](./bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
 | `zen-browser` | [📄](./bucket/zen-browser.json) | [🌐](https://github.com/zen-browser/desktop) | [🔗](https://github.com/zen-browser/desktop/releases) |
 
