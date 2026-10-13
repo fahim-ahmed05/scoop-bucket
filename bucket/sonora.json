@@ -1,12 +1,12 @@
 {
-    "version": "0.42.2",
+    "version": "0.43.0",
     "description": "A native music streaming client, built with Rust and GPUI",
     "homepage": "https://github.com/nolight132/sonora",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nolight132/sonora/releases/download/v0.42.2/sonora-v0.42.2-x86_64-pc-windows-msvc.exe#/sonora.exe",
-            "hash": "7de51c270661adec2db85e1dadd94f4ca9b570bbefe7483e7d0ab9a6f551f4e6"
+            "url": "https://github.com/nolight132/sonora/releases/download/v0.43.0/sonora-v0.43.0-x86_64-pc-windows-msvc.exe#/sonora.exe",
+            "hash": "8c94bb2c035834daf03a88beb2ac1560fedebd70827950d3eb3a48ca57fd3da4"
         }
     },
     "shortcuts": [
