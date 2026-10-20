@@ -11,7 +11,7 @@
     },
     "pre_install": [
         "# Windows releases are NSIS portable stubs: unpack the embedded app-64.7z payload",
-        "$stub = Join-Path $dir $fname[0]",
+        "$stub = Join-Path $dir (@($fname)[0])",
         "if (!(Test-Path $stub)) { abort \"Flyx portable installer '$stub' is missing.\" }",
         "$tmp = Join-Path $dir 'flyx-nsis'",
         "Expand-7zipArchive -Path $stub -DestinationPath $tmp",
