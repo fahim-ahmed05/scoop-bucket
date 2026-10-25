@@ -22,6 +22,7 @@ This bucket includes the following manifests:
 | **WindHawk** | Customization marketplace and mod manager for Windows programs | `scoop install windhawk` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/windhawk.json) | [🌐](https://windhawk.net/) | [🔗](https://github.com/ramensoftware/windhawk/releases) |
 | **Winhance** | C# application to debloat, optimize, and customize the Windows experience | `scoop install winhance` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
 | **Zen Browser** | Firefox-based browser focused on privacy and productivity | `scoop install zen-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json) | [🌐](https://zen-browser.app/) | [🔗](https://github.com/zen-browser/desktop/releases) |
+| **Cent Browser** | Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages. | `scoop install cent-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/cent-browser.json) | [🌐](https://www.centbrowser.com/) | [🔗](https://www.centbrowser.com/history.html) |
 
 ## Installation
 
