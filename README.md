@@ -23,6 +23,7 @@ This bucket includes the following manifests:
 | **Winhance** | C# application to debloat, optimize, and customize the Windows experience | `scoop install winhance` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/winhance.json) | [🌐](https://winhance.net/) | [🔗](https://github.com/memstechtips/Winhance/releases) |
 | **Zen Browser** | Firefox-based browser focused on privacy and productivity | `scoop install zen-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json) | [🌐](https://zen-browser.app/) | [🔗](https://github.com/zen-browser/desktop/releases) |
 | **Cent Browser** | Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages. | `scoop install cent-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/cent-browser.json) | [🌐](https://www.centbrowser.com/) | [🔗](https://www.centbrowser.com/history.html) |
+| **MrRSS** | A modern, cross-platform desktop RSS reader. | `scoop install mrrss` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/mrrss.json) | [🌐](https://github.com/DevXDojo/MrRSS) | [🔗](https://github.com/DevXDojo/MrRSS/releases) |
 
 ## Installation
 
