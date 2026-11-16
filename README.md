@@ -24,6 +24,7 @@ This bucket includes the following manifests:
 | **Zen Browser** | Firefox-based browser focused on privacy and productivity | `scoop install zen-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/zen-browser.json) | [🌐](https://zen-browser.app/) | [🔗](https://github.com/zen-browser/desktop/releases) |
 | **Cent Browser** | Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages. | `scoop install cent-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/cent-browser.json) | [🌐](https://www.centbrowser.com/) | [🔗](https://www.centbrowser.com/history.html) |
 | **MrRSS** | A modern, cross-platform desktop RSS reader. | `scoop install mrrss` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/mrrss.json) | [🌐](https://github.com/DevXDojo/MrRSS) | [🔗](https://github.com/DevXDojo/MrRSS/releases) |
+| **Play** | A simple and lightweight media player for Windows. | `scoop install play` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/play.json) | [🌐](https://github.com/mustafachyi/Play) | [🔗](https://github.com/mustafachyi/Play/releases) |
 
 ## Installation
 
