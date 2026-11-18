@@ -25,6 +25,7 @@ This bucket includes the following manifests:
 | **Cent Browser** | Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages. | `scoop install cent-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/cent-browser.json) | [🌐](https://www.centbrowser.com/) | [🔗](https://www.centbrowser.com/history.html) |
 | **MrRSS** | A modern, cross-platform desktop RSS reader. | `scoop install mrrss` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/mrrss.json) | [🌐](https://github.com/DevXDojo/MrRSS) | [🔗](https://github.com/DevXDojo/MrRSS/releases) |
 | **Play** | A simple and lightweight media player for Windows. | `scoop install play` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/play.json) | [🌐](https://github.com/mustafachyi/Play) | [🔗](https://github.com/mustafachyi/Play/releases) |
+| **SimpleX Chat** | A secure and private messaging application. | `scoop install simplex-chat` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/simplex-chat.json) | [🌐](https://github.com/simplex-chat/simplex-chat) | [🔗](https://github.com/simplex-chat/simplex-chat/releases) |
 
 ## Installation
 
