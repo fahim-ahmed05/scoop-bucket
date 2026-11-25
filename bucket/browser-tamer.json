@@ -1,0 +1,33 @@
+{
+    "version": "6.3.3",
+    "description": "Browser proxy for Windows and Linux with autodetection, rules, and scripting. 100% local, no tracking, no registration.",
+    "homepage": "https://www.aloneguid.uk/projects/bt",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://codeberg.org/aloneguid/bt/releases/download/6.3.3/BrowserTamer-6.3.3-win64.msi",
+            "hash": "cfe374e3cd2386a2c9469a474236a94f291b014a0bd5bad983a3698104736dc0",
+            "extract_dir": "LocalApp\\BrowserTamer"
+        }
+    },
+    "bin": "bt.exe",
+    "shortcuts": [
+        [
+            "bt.exe",
+            "Browser Tamer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://codeberg.org/api/v1/repos/aloneguid/bt/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "(?<version>[\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://codeberg.org/aloneguid/bt/releases/download/$version/BrowserTamer-$version-win64.msi",
+                "extract_dir": "LocalApp\\BrowserTamer"
+            }
+        }
+    }
+}

@@ -8,6 +8,7 @@ This bucket includes the following manifests:
 
 | App | Description | Install | Manifest | Website | Changelog |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Browser Tamer** | Browser proxy with autodetection, rules, scripting, and no tracking | `scoop install browser-tamer` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/browser-tamer.json) | [🌐](https://www.aloneguid.uk/projects/bt/) | [🔗](https://codeberg.org/aloneguid/bt/releases) |
 | **Click Paste** | Pastes clipboard contents as keystrokes to whatever location clicked | `scoop install clickpaste` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/clickpaste.json) | [🌐](https://github.com/Collective-Software/ClickPaste) | [🔗](https://github.com/Collective-Software/ClickPaste/releases) |
 | **Flyx** | Self-hosted movies, TV, anime, live TV and sports hub with a bundled local server | `scoop install flyx` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/flyx.json) | [🌐](https://github.com/Vynx-Velvet/Flyx-main) | [🔗](https://github.com/Vynx-Velvet/Flyx-main/releases) |
 | **Helium Browser** | Chromium-based web browser focused on privacy, ad-blocking, and zero bloat | `scoop install helium-browser` | [📄](https://github.com/fahim-ahmed05/scoop-bucket/blob/master/bucket/helium-browser.json) | [🌐](https://helium.computer) | [🔗](https://github.com/imputnet/helium-windows/releases) |
