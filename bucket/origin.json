@@ -1,0 +1,29 @@
+{
+    "version": "3.0.11",
+    "description": "A fast, native app for your Stremio and Nuvio accounts and addons, written in C.",
+    "homepage": "https://github.com/betterstremio/origin",
+    "license": "GPL-3.0",
+    "notes": "Settings and sign-in are kept in '%LOCALAPPDATA%\\io.github.betterstremio.origin'. The executable is not code-signed, so Windows SmartScreen may warn on first run.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/betterstremio/origin/releases/download/v3.0.11/io.github.betterstremio.origin_3.0.11_windows_portable.zip",
+            "hash": "a59af54f6ecf04ee80af7b71d10b863da183e94ddad599bd859dcaff2565333b",
+            "extract_dir": "Origin"
+        }
+    },
+    "shortcuts": [
+        [
+            "Origin.exe",
+            "Origin"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/betterstremio/origin/releases/download/v$version/io.github.betterstremio.origin_$version_windows_portable.zip",
+                "extract_dir": "Origin"
+            }
+        }
+    }
+}
